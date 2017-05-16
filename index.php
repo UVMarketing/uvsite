@@ -16,22 +16,46 @@
 	.purple {
 		color: #351F39!important
 	}
+
+	.sliding-u-l-r {
+		text-decoration: none;
+		display: inline-block;
+		border-bottom: 3px solid transparent;
+		transition: 0.5s ease;
+		white-space: nowrap;
+		height: 25px;
+	}
+
+	.sliding-u-l-r::after {
+		content: '';
+		display: block;
+		width: 0;
+		height: 2px;
+		background: #FFF;
+		transition: width .3s;
+	}
+
+	.sliding-u-l-r:hover::after {
+		border-bottom: 3px solid white;
+		width: 50%;
+	}
 </style>
 
 <body>
 	<!-- NAV -->
-	<nav>
-		<div class="nav-wrapper purple">
+	<nav class="nav-extended transparent" style="height: 80px;line-height: 80px;box-shadow: none;">
+		<div class="nav-wrapper">
 			<a href="https://uvmarketing.com.mx/" class="brand-logo"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_80/v1494883514/logo_uv_pagina-01_f7gmn4.png"></a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a href="#!">QUIENES SOMOS</a></li>
-				<li><a href="#!">SERVICIOS</a></li>
-				<li><a href="#!">POR QUÉ UV MARKETING</a></li>
-				<li><a href="#!">CONTACTO</a></li>
+				<li><a href="#!" class="sliding-u-l-r">QUIENES SOMOS</a></li>
+				<li><a href="#!" class="sliding-u-l-r">SERVICIOS</a></li>
+				<li><a href="#!" class="sliding-u-l-r">POR QUÉ UV MARKETING</a></li>
+				<li><a href="#!" class="sliding-u-l-r">CONTACTO</a></li>
 			</ul>
 		</div>
 	</nav>
 	<!-- /NAV -->
+	<br><br><br>
 	<!-- HOME -->
 	<section id="home">
 		<div class="container">
