@@ -14,7 +14,7 @@
 	}
 
 	.purple {
-		color: #351F39!important
+		color: #351F39 !important;
 	}
 
 	.sliding-u-l-r {
@@ -24,6 +24,7 @@
 		transition: 0.5s ease;
 		white-space: nowrap;
 		height: 25px;
+		background-color: rgba(0, 0, 0, 0) !important;
 	}
 
 	.sliding-u-l-r::after {
@@ -33,17 +34,19 @@
 		height: 2px;
 		background: #FFF;
 		transition: width .3s;
+		background-color: rgba(0, 0, 0, 0) !important;
 	}
 
 	.sliding-u-l-r:hover::after {
 		border-bottom: 3px solid white;
 		width: 50%;
+		background-color: rgba(0, 0, 0, 0) !important;
 	}
 </style>
 
 <body>
 	<!-- NAV -->
-	<nav class="nav-extended transparent" style="height: 80px;line-height: 80px;box-shadow: none;">
+	<nav class="nav-extended transparent z-depth-0" style="height: 80px;line-height: 80px;">
 		<div class="nav-wrapper">
 			<a href="https://uvmarketing.com.mx/" class="brand-logo"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_80/v1494883514/logo_uv_pagina-01_f7gmn4.png"></a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
