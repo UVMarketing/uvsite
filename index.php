@@ -36,7 +36,16 @@
 	</div>
 </section>
 <!-- /HOME -->
-
+<!-- FOOTER -->
+<footer class="page-footer transparent">
+  <div class="footer-copyright">
+    <div class="container">
+    © <?php echo date('Y') ?> Copyright UV Marketing
+    <a class="grey-text text-lighten-4 right" href="mailto:contacto@uvmarketing.com.mx">contacto@uvmarketing.com.mx</a>
+    </div>
+  </div>
+</footer>
+<!-- /FOOTER -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 </body>
