@@ -1,3 +1,6 @@
+<?php
+	require 'config/db.php';
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,98 +9,11 @@
 	<link rel="stylesheet" href="style/main.css">
 	<title>UV Marketing</title>
 </head>
-<<<<<<< HEAD
-=======
-<style type="text/css">
-	html {
-		font-family: 'Roboto', sans-serif;
-		background-color: white;
-	}
-
-	.navhome {
-		background-image: url("https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/fondo1-01.png");
-	}
-
-	#home {
-		height: 95vh;
-	}
-
-	h2 {
-		font-size: 2.5em;
-		font-style: oblique;
-		display: inline-block;
-	}
-
-	h2:after {
-		display: block;
-		content: "";
-		width: 50%;
-		height: 10px;
-		border-bottom: solid 3px;
-	}
-
-	.cyan,
-	.cyan-text {
-		color: #709FB0 !important;
-	}
-
-	.purple,
-	.purple-text {
-		color: #351F39 !important;
-	}
-
-	.sliding-u-l-r {
-		text-decoration: none;
-		display: inline-block;
-		border-bottom: 3px solid transparent;
-		transition: 0.5s ease;
-		white-space: nowrap;
-		height: 25px;
-		background-color: rgba(0, 0, 0, 0) !important;
-	}
-
-	.sliding-u-l-r:after {
-		content: '';
-		display: block;
-		width: 0;
-		height: 2px;
-		background: #FFF;
-		transition: width .3s;
-		background-color: rgba(0, 0, 0, 0) !important;
-	}
-
-	.sliding-u-l-r:hover:after {
-		border-bottom: 3px solid white;
-		width: 50%;
-		background-color: rgba(0, 0, 0, 0) !important;
-	}
-
-	.btn {
-		text-transform: none;
-		font-size: 19px;
-		font-stretch: condensed;
-	}
-
-	.col.s4>.btn {
-		width: 60%;
-		border-radius: 15px;
-	}
-
-	nav {
-		height: 80px;
-		line-height: 80px;
-	}
-</style>
-
->>>>>>> 1ac89182ff380ce24c86b1e79870fe3a4685550c
 <body>
 	<div class="navbar-fixed">
 		<!-- NAV -->
-<<<<<<< HEAD
-		<nav class="nav-extended purple" style="height: 80px;line-height: 80px;">
-=======
+		<nav class="nav-extended transparent z-depth-0" style="height:80px;line-height:80px;">
 		<nav class="transparent z-depth-0">
->>>>>>> 1ac89182ff380ce24c86b1e79870fe3a4685550c
 			<div class="nav-wrapper">
 				<a href="https://uvmarketing.com.mx/" class="brand-logo"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_80/v1494883514/logo_uv_pagina-01_f7gmn4.png "></a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -108,15 +24,10 @@
 				</ul>
 			</div>
 		</nav>
+		</div>
 		<!-- /NAV -->
-<<<<<<< HEAD
 		<!-- HOME -->
-		<section id="home" class="home" style="height:80vh">
-=======
-
-		<!-- HOME -->
-		<section id="home" class="valign-wrapper">
->>>>>>> 1ac89182ff380ce24c86b1e79870fe3a4685550c
+		<section id="home" class="valign-wrapper home" style="margin-top:-7em;height:110vh">
 			<div class="container">
 				<div class="row">
 					<div class="col s4 offset-s1">
@@ -131,27 +42,25 @@
 			</div>
 		</section>
 		<!-- /HOME -->
-	</div>
 	<!-- QUIENES SOMOS -->
 	<section id="quienessomos ">
 		<div class="container ">
 			<div class="row left-align ">
 				<div class="col s12 ">
-					<h2 class="purple-text ">QUIENES SOMOS</h2>
+					<h2 class="purple-text">QUIENES SOMOS</h2>
 				</div>
 			</div>
-			<br>
 			<div class="row left-align ">
 				<div class="col s5 ">
 					<p>Jóvenes profesionales dedicados a crear, desarrollar e implementar estrategias de marketing que vayan <b>más allá de lo visible.</b></p>
-					<br><br>
+					<br>
 					<p>Combinamos nuestras 3 áreas de trabajo para poder generar acciones que aumenten la probabilidad de concretar ventas de nuestros clientes.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- /QUIENES SOMOS -->
-	<br><br><br>
+
 	<!-- SERVICIOS -->
 	<section id="servicios ">
 		<div class="container ">
@@ -162,10 +71,8 @@
 			</div>
 		</div>
 		<div class="row valign-wrapper cyan " style="background-color: #709FB0 !important ">
-			<div class="col s4 ">
-				<img src=" " alt="img-papers ">
-			</div>
-			<div class="col s4 white-text ">
+			<span class="bgtext">UV</span>
+			<div class="col m4 offset-m4 white-text ">
 				<p><b>Web Search Engine Strategy</b></p>
 				<p>Llega a las personas que están buscando negocios como el tuyo.</p>
 				<p><b>Desarrollo Web</b></p>
@@ -175,56 +82,48 @@
 				<p><b>Identidad Corporativa</b></p>
 				<p>Transmite lo que es en realidad tu negocio a través de tu imagen.</p>
 			</div>
-			<div class="col s4 center-align ">
-				<a class="waves-effect waves white cyan-text btn ">Conoce más</a>
+			<div class="col m4 center-align ">
+				<a class="waves-effect waves white cyan-text btn">Conoce más</a>
 			</div>
 		</div>
 	</section>
 	<!-- /SERVICIOS -->
 	<!-- CLIENTES -->
-<<<<<<< HEAD
-	<section id="clientes">
-		<div class="container">
-			<div class="row valign-wrapper">
-			<h2 class="col s2 purple-text">CLIENTES</h2>
-=======
-	<section id="clientes ">
-		<div class="row valign-wrapper ">
-			<h2 class="col s2 purple-text ">CLIENTES</h2>
->>>>>>> 1ac89182ff380ce24c86b1e79870fe3a4685550c
-		</div>
-
-		<div class="row ">
-
-			<div class="col s4 m5 ">
-				<div class="card-panel purple ">
-					<span class="white-text ">Glass&Glass
-          </span>
-				</div>
-<<<<<<< HEAD
-			<div class="col s4 m5">
-				<div class="card-panel purple">
-					<span class="white-text">Escape rooms
-=======
-			</div>
-
-			<div class="col s4 m5 ">
-				<div class="card-panel purple ">
-					<span class="white-text ">Escape rooms
->>>>>>> 1ac89182ff380ce24c86b1e79870fe3a4685550c
-          </span>
+	<section id="clientes" style="z-index:1">
+		<div class="row valign-wrapper">
+			<div class="col m9" style="margin-top:-6em">
+				<div class="carousel">
+				<?php
+				foreach ($clients as $key => $value) {
+					echo "<a href='#!' class='carousel-item'>
+						<div class='col m12'>
+							<div class='card purple' style='height:40vh;width:20vw'>
+								<div class='card-image'>
+									<img src='$value->picture' class='responsive-img right'>
+								</div>
+								<div class='card-content'>
+								<span class='card-title'>$value->name</span>
+									<p class='white-text'>
+										$value->comment
+									</p>
+								</div>
+								</div>
+						</div>
+					</a>";
+				}
+				?>
 				</div>
 			</div>
-		</div>
-		</div>
+			<div class="col m3">
+				<h2 class="purple-text darken-2">CLIENTES</h2>
+			</div>
 		</div>
 	</section>
-<!-- /HOME -->
 <!-- CONTACT -->
-	<section id="contact" class="white-text">
+	<section id="contact" class="white-text purple">
 		<div class="container">
 			<div class="row">
-				<div class="col l6 s12 home">
+				<div class="col l7 s12 home">
 				<h3>CONTACTANOS</h3>
 				<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/raya-01.png">
 				<p>Este es el primer paso para iniciar una estrategia <i>ultravioleta</i>.<br>Déjanos tus datos y nos comunicaremos a la brevedad posible.</p>
@@ -260,7 +159,7 @@
 				</div>
 				</form>
 				</div>
-				<div class="col l6 s12 purple">
+				<div class="col l5 s12 purple">
 					<h3 class="white-text">NUESTRA OFICINA</h3>
 					<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/raya-01.png">
 					<p>Avenida Universidad de Wisconsin #208 Int. J<br>
@@ -282,7 +181,7 @@
 			<div class="row">
 				<div class="col l12 s12 center">
 					<h5 class="white-text small">UV Marketing <br><small class="grey-text text-lighten-4">Mercadotecnia Digital</small></h5>
-					
+
 				</div>
 			</div>
 		</div>
@@ -296,5 +195,10 @@
 <!-- /FOOTER -->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.carousel').carousel();
+});
+</script>
 </body>
 </html>
