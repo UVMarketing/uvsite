@@ -73,7 +73,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row valign-wrapper cyan" style="background-color: #709FB0 !important;margin-bottom:-1em">
+			<div class="row valign-wrapper cyan" style="background-color: #709FB0 !important;margin-bottom:-1em; position: relative;">
 				<span class="bgtext">UV</span>
 				<div class="col m4 offset-m4 white-text ">
 					<p><b>Web Search Engine Strategy</b></p>

@@ -32,13 +32,12 @@ main {
   position: absolute;
   font-size: 14em;
   font-weight: bold;
-  opacity: 0.2;
+  opacity: 0.1;
   z-index: 0;
   right: 0;
   letter-spacing: -.2em;
-  margin-top: .65em;
-  margin-right: 0em;
-  clip: rect(0px, 2em, 1em, 0px);
+  bottom: -.5em;
+  clip: rect(0em, .9em, 1em, 0em);
 }
 
 .small {
