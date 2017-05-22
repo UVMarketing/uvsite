@@ -30,14 +30,14 @@ main {
 .bgtext {
   color: black;
   position: absolute;
-  font-size: 14em;
-  font-weight: bold;
+  font-size: 16em;
+  font-weight: normal;
   opacity: 0.1;
   z-index: 0;
   right: 0;
-  letter-spacing: -.2em;
+  letter-spacing: -.18em;
   bottom: -.5em;
-  clip: rect(0em, .9em, 1em, 0em);
+  clip: rect(0em, 2em, 1em, 0em);
 }
 
 .small {

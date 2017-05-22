@@ -7,14 +7,15 @@
 	<head>
 		<link rel="sytlesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 		<link rel="stylesheet" href="style/main.css">
 		<title>UV Marketing</title>
 	</head>
 
 	<body>
-		<div class="navbar-fixed">
+		<div class="navbar-fixed animated fadeInDown">
 			<!-- NAV -->
-			<nav class="transparent z-depth-0" style="height:80px;line-height:80px;">
+			<nav class="transparent z-depth-0" style="height:80px;line-height:80px;background: linear-gradient(to bottom, rgba(53, 31, 57, 1), rgba(114, 106, 149, 0.1));">
 				<div class="nav-wrapper">
 					<a href="https://uvmarketing.com.mx/" class="brand-logo"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_80/v1494883514/logo_uv_pagina-01_f7gmn4.png "></a>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -30,7 +31,7 @@
 		<!-- HOME -->
 		<section id="home" class="valign-wrapper home" style="margin-top:-7em;height:110vh">
 			<div class="container">
-				<div class="row">
+				<div class="row animated fadeIn">
 					<div class="col s4 offset-s1">
 						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/lupa.png" alt="Lupa" class="responsive-img">
 					</div>
@@ -48,16 +49,16 @@
 			<div class="container">
 				<div class="row left-align">
 					<div class="col s12">
-						<h2 class="purple-text">QUIENES SOMOS</h2>
+						<h2 class="purple-text animated fadeIn">QUIENES SOMOS</h2>
 					</div>
 				</div>
 				<div class="row left-align valign-wrapper">
-					<div class="col s5">
+					<div class="col s5 animatable fadeInLeft">
 						<p>Jóvenes profesionales dedicados a crear, desarrollar e implementar estrategias de marketing que vayan <b>más allá de lo visible.</b></p>
 						<br>
 						<p>Combinamos nuestras 3 áreas de trabajo para poder generar acciones que aumenten la probabilidad de concretar ventas de nuestros clientes.</p>
 					</div>
-					<div class="col s6 offset-s1">
+					<div class="col s6 offset-s1 animatable fadeInRight">
 						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495229595/uvsite/areasuv-01.png" alt="graphs" class="responsive-img">
 					</div>
 				</div>
@@ -75,13 +76,16 @@
 			</div>
 			<div class="row valign-wrapper cyan" style="background-color: #709FB0 !important;margin-bottom:-1em; position: relative;">
 				<span class="bgtext">UV</span>
-				<div class="col m4 offset-m4 white-text ">
+				<div class="col m4">
+					<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495483008/uvsite/pexels-photo-191830.jpg" class="responsive-img" style="opacity:.2">
+				</div>
+				<div class="col m4 white-text">
 					<p><b>Web Search Engine Strategy</b></p>
-					<p>Llega a las personas que están buscando negocios como el tuyo.</p>
+					<p>Llega a las personas que están buscando negocios como el tuyo.</p><br>
 					<p><b>Desarrollo Web</b></p>
-					<p>Coloca tu negocio en la red y brinda la información y servicios que necesitan tus clientes.</p>
+					<p>Coloca tu negocio en la red y brinda la información y servicios que necesitan tus clientes.</p><br>
 					<p><b>Campañas Publicitarias - UV Technologies</b></p>
-					<p>¿Deseas lanzar un nuevo producto o posicionar tu marca? Imagina usar las últimas tendencias en tecnología para hacerlo.</p>
+					<p>¿Deseas lanzar un nuevo producto o posicionar tu marca? Imagina usar las últimas tendencias en tecnología para hacerlo.</p><br>
 					<p><b>Identidad Corporativa</b></p>
 					<p>Transmite lo que es en realidad tu negocio a través de tu imagen.</p>
 				</div>
@@ -196,6 +200,7 @@
 		<!-- /FOOTER -->
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+		<script src="assets/app.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$('.carousel').carousel();
