@@ -1,1 +1,23 @@
-$(".dropdown-button").dropdown({inDuration:300,outDuration:225,constrainWidth:!0,hover:!1,gutter:0,belowOrigin:!0,alignment:"left",stopPropagation:!1}),$(".parallax").parallax(),$(".scrollspy").scrollSpy();var doAnimations=function(){var o=$(window).scrollTop()+$(window).height(),n=$(".animatable");0==n.size()&&$(window).off("scroll",doAnimations),n.each(function(n){var a=$(this);a.offset().top+a.height()-20<o&&a.removeClass("animatable").addClass("animated")})};$(window).on("scroll",doAnimations),$(window).trigger("scroll");
+$(document).ready(function() {
+  var doAnimations = function() {
+  // Calc current offset and get all animatables
+  var offset = $(window).scrollTop() + $(window).height(),
+      $animatables = $('.animatable');
+  // Unbind scroll handler if we have no animatables
+  if ($animatables.size() == 0) {
+    $(window).off('scroll', doAnimations);
+  }
+  // Check all animatables and animate them if necessary
+  $animatables.each(function(i) {
+     var $animatable = $(this);
+    if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+      $animatable.removeClass('animatable').addClass('animated');
+    }
+  });
+};
+// Hook doAnimations on scroll, and trigger a scroll
+$(window).on('scroll', doAnimations);
+$(window).trigger('scroll');
+  $('.carousel').carousel();
+  $('.scrollspy').scrollSpy();
+});
