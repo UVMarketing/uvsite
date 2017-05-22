@@ -40,6 +40,13 @@ main {
   clip: rect(0em, 2em, 1em, 0em);
 }
 
+.bgimg {
+  height: 35em;
+  background-size: cover;
+  background-position: center center;
+  opacity: .2;
+}
+
 .small {
   font-size: 1em;
 }

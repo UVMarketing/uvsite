@@ -76,11 +76,10 @@
 			</div>
 			<div class="row valign-wrapper cyan" style="background-color: #709FB0 !important;margin-bottom:-1em; position: relative;">
 				<span class="bgtext">UV</span>
-				<div class="col m4">
-					<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495483008/uvsite/pexels-photo-191830.jpg" class="responsive-img" style="opacity:.2">
+				<div class="col m4 bgimg" style="background-image:url('https://res.cloudinary.com/duhncjntk/image/upload/v1495483008/uvsite/pexels-photo-191830.jpg');">
 				</div>
 				<div class="col m4 white-text">
-					<p><b>Web Search Engine Strategy</b></p>
+					<p><b>Web Search Engine</b></p>
 					<p>Llega a las personas que están buscando negocios como el tuyo.</p><br>
 					<p><b>Desarrollo Web</b></p>
 					<p>Coloca tu negocio en la red y brinda la información y servicios que necesitan tus clientes.</p><br>
