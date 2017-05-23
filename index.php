@@ -13,8 +13,8 @@
 	</head>
 
 	<body>
+		<!-- NAV -->
 		<div class="navbar-fixed animated fadeInDown">
-			<!-- NAV -->
 			<nav class="transparent z-depth-0" style="height:80px;line-height:80px;background: linear-gradient(to bottom, rgba(53, 31, 57, 1), rgba(114, 106, 149, 0.1));">
 				<div class="nav-wrapper">
 					<a href="https://uvmarketing.com.mx/" class="brand-logo"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_80/v1494883514/logo_uv_pagina-01_f7gmn4.png "></a>
