@@ -26,15 +26,17 @@ h2:after {
 main {
   flex: 1 0 auto;
 }
-.animatable{
-visibility: hidden;
--webkit-animation-play-state: paused;
--moz-animation-play-state: paused;
--ms-animation-play-state: paused;
--o-animation-play-state: paused;
-animation-play-state: paused;
+
+.animatable {
+  visibility: hidden;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
 }
-.animated{
+
+.animated {
   visibility: visible;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
@@ -52,6 +54,7 @@ animation-play-state: paused;
   -o-animation-play-state: running;
   animation-play-state: running;
 }
+
 .bgtext {
   color: black;
   position: absolute;
@@ -125,11 +128,11 @@ animation-play-state: paused;
 .btn {
   text-transform: none;
   font-stretch: condensed;
+  border-radius: 15px;
 }
 
 .col.m4>.btn {
   width: 60%;
-  border-radius: 15px;
 }
 
 .input-field label {

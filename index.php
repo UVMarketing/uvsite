@@ -70,7 +70,7 @@
 			<div class="container">
 				<div class="row left-align">
 					<div class="col s12">
-						<h2 class="cyan-text">SERVICIOS</h2>
+						<h2 class="cyan-text animatable fadeIn">SERVICIOS</h2>
 					</div>
 				</div>
 			</div>
@@ -78,7 +78,7 @@
 				<span class="bgtext">UV</span>
 				<div class="col m4 bgimg" style="background-image:url('https://res.cloudinary.com/duhncjntk/image/upload/v1495483008/uvsite/pexels-photo-191830.jpg');">
 				</div>
-				<div class="col m4 white-text">
+				<div class="col m4 white-text animatable fadeInUp">
 					<p><b>Web Search Engine</b></p>
 					<p>Llega a las personas que están buscando negocios como el tuyo.</p><br>
 					<p><b>Desarrollo Web</b></p>
@@ -89,7 +89,7 @@
 					<p>Transmite lo que es en realidad tu negocio a través de tu imagen.</p>
 				</div>
 				<div class="col m4 center-align ">
-					<a class="waves-effect waves white cyan-text btn">Conoce más</a>
+					<a class="waves-effect waves white cyan-text btn animated infinite pulse">Conoce más</a>
 				</div>
 			</div>
 		</section>
@@ -98,7 +98,7 @@
 		<section id="clientes" style="z-index:1" class="section scrollspy">
 			<div class="row valign-wrapper">
 				<div class="col m9">
-					<div class="carousel">
+					<div class="carousel animatable fadeIn">
 						<?php
 				foreach ($clients as $key => $value) {
 					echo "<a href='#!' class='carousel-item'>
@@ -120,7 +120,7 @@
 					</div>
 				</div>
 				<div class="col m3">
-					<h2 class="purple-text">CLIENTES</h2>
+					<h2 class="purple-text animatable fadeIn">CLIENTES</h2>
 				</div>
 			</div>
 		</section>
@@ -159,7 +159,7 @@
 						</label>
 								</div>
 								<div class="input-field col s10">
-									<input type="submit" value="Enviar Mensaje" class="btn waves-effect deep-purple">
+									<input type="submit" value="Enviar Mensaje" class="btn waves-effect deep-purple animated infinite pulse">
 								</div>
 							</div>
 						</form>
@@ -179,7 +179,7 @@
 		</section>
 		<!-- /CONTACT -->
 		<!-- FOOTER -->
-		<footer class="page-footer grey darken-2">
+		<footer class="page-footer grey darken-2 animatable fadeIn">
 			<div class="container">
 				<div class="row">
 					<div class="col l12 s12 center">
