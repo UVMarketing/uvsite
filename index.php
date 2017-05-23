@@ -104,11 +104,10 @@
 					echo "<a href='#!' class='carousel-item'>
 						<div class='col m12'>
 							<div class='card-panel hoverable purple' style='height:35vh;width:30vw'>
-								<div class='card-image'>
+								<div class='card-image col m12'>
 									<img src='$value->picture' class='right' style='img-responsive'>
 								</div>
-								<div class='card-content'>
-									<span class='card-title deep-purple-text' style='font-size:2.5em'>$value->name</span>
+								<div class='card-content col m12'>
 									<p class='white-text' style='font-size:1.5em'>
 									$value->comment
 									</p>
@@ -128,7 +127,7 @@
 		<!-- CONTACT -->
 		<section id="contact" class="white-text purple home section scrollspy">
 			<div class="container">
-				<div class="row" style="margin-bottom:0em">
+				<div class="row" style="margin-bottom:-1em;margin-top:-1em">
 					<div class="col l7 s12 home">
 						<h3>CONTACTANOS</h3>
 						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/raya-01.png">
