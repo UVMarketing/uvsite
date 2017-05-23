@@ -13,8 +13,8 @@
 	</head>
 
 	<body>
-		<!-- NAV -->
-		<div class="navbar-fixed animated fadeInDown">
+		<div class="navbar-fixed animatable fadeInDown">
+			<!-- NAV -->
 			<nav class="transparent z-depth-0" style="height:80px;line-height:80px;background: linear-gradient(to bottom, rgba(53, 31, 57, 1), rgba(114, 106, 149, 0.1));">
 				<div class="nav-wrapper">
 					<a href="https://uvmarketing.com.mx/" class="brand-logo"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_80/v1494883514/logo_uv_pagina-01_f7gmn4.png "></a>
@@ -29,9 +29,9 @@
 		</div>
 		<!-- /NAV -->
 		<!-- HOME -->
-		<section id="home" class="valign-wrapper home" style="margin-top:-7em;height:110vh">
+		<section id="home" class="valign-wrapper home section scrollspy" style="margin-top:-7em;height:110vh">
 			<div class="container">
-				<div class="row animated fadeIn">
+				<div class="row animatable fadeIn">
 					<div class="col s4 offset-s1">
 						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/lupa.png" alt="Lupa" class="responsive-img">
 					</div>
@@ -45,11 +45,11 @@
 		</section>
 		<!-- /HOME -->
 		<!-- QUIENES SOMOS -->
-		<section id="quienessomos">
+		<section id="quienessomos" class="section scrollspy">
 			<div class="container">
 				<div class="row left-align">
 					<div class="col s12">
-						<h2 class="purple-text animated fadeIn">QUIENES SOMOS</h2>
+						<h2 class="purple-text animatable fadeIn">QUIENES SOMOS</h2>
 					</div>
 				</div>
 				<div class="row left-align valign-wrapper">
@@ -66,7 +66,7 @@
 		</section>
 		<!-- /QUIENES SOMOS -->
 		<!-- SERVICIOS -->
-		<section id="servicios">
+		<section id="servicios" class="section scrollspy">
 			<div class="container">
 				<div class="row left-align">
 					<div class="col s12">
@@ -95,7 +95,7 @@
 		</section>
 		<!-- /SERVICIOS -->
 		<!-- CLIENTES -->
-		<section id="clientes" style="z-index:1">
+		<section id="clientes" style="z-index:1" class="section scrollspy">
 			<div class="row valign-wrapper">
 				<div class="col m9">
 					<div class="carousel">
@@ -126,7 +126,7 @@
 			</div>
 		</section>
 		<!-- CONTACT -->
-		<section id="contact" class="white-text purple home">
+		<section id="contact" class="white-text purple home section scrollspy">
 			<div class="container">
 				<div class="row" style="margin-bottom:0em">
 					<div class="col l7 s12 home">
@@ -200,11 +200,6 @@
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 		<script src="assets/app.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('.carousel').carousel();
-			});
-		</script>
 	</body>
 
 	</html>
