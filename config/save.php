@@ -13,5 +13,4 @@
   .'Nos comunicaremos en la brevedad contigo.</h3>';
   $headers = 'From: contacto@uvmarketing.com.mx'."\r\n".'Reply-To: contacto@uvmarketing.com.mx'."\r\n".'X-Mailer: PHP/'.phpversion();
   mail($contact->email,$title,$message,$headers);
-  echo $message;
  ?>
