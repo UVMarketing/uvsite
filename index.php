@@ -1,5 +1,6 @@
 <?php
 	require 'config/db.php';
+	$clients = R::findAll('client');
  ?>
 	<!DOCTYPE html>
 	<html>
@@ -166,7 +167,7 @@
 						<h3>CONTACTANOS</h3>
 						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/raya-01.png">
 						<p>Este es el primer paso para iniciar una estrategia <i>ultravioleta</i>.<br>Déjanos tus datos y nos comunicaremos a la brevedad posible.</p>
-						<form class="col s12">
+						<form class="col s12" action="config/save.php" method="POST">
 							<div class="row">
 								<div class="input-field col s10">
 									<input type="text" name="name" class="validate white-text" required>
@@ -187,8 +188,8 @@
 						</label>
 								</div>
 								<div class="input-field col s10">
-									<input type="text" name="fname" class="validate">
-									<label for="fname">
+									<input type="text" name="message" class="validate">
+									<label for="message">
 							Mensaje
 						</label>
 								</div>
