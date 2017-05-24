@@ -22,4 +22,18 @@ $(document).ready(function() {
 	$('.scrollspy').scrollSpy();
 	$(".circle:visible .mask-top").css("transform", "rotate(180deg)");
 	$(".circle:visible .mask-bottom").css("transform", "rotate(-180deg)");
+	$('form').submit(function(event) {
+		$.ajax({
+			type: 'POST',
+			url: 'config/save.php',
+			data: $('form').serialize(),
+			success: function() {
+				$('#status').html('Enviando...').hide()
+					.fadeIn(3000, function() {
+						$('#status').append('...Enviado!, por favor verifica tu spam');
+					});
+			}
+		});
+		event.preventDefault();
+	});
 });

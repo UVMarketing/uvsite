@@ -167,7 +167,7 @@
 						<h3>CONTACTANOS</h3>
 						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/raya-01.png">
 						<p>Este es el primer paso para iniciar una estrategia <i>ultravioleta</i>.<br>Déjanos tus datos y nos comunicaremos a la brevedad posible.</p>
-						<form class="col s12" action="config/save.php" method="POST">
+						<form class="col s12">
 							<div class="row">
 								<div class="input-field col s10">
 									<input type="text" name="name" class="validate white-text" required>
@@ -195,6 +195,8 @@
 								</div>
 								<div class="input-field col s10">
 									<input type="submit" value="Enviar Mensaje" class="btn waves-effect deep-purple animated infinite pulse">
+									<div id="status">
+									</div>
 								</div>
 							</div>
 						</form>
