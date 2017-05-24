@@ -23,6 +23,10 @@ h2:after {
   border-bottom: solid 3px;
 }
 
+h4 {
+  white-space: nowrap;
+}
+
 main {
   flex: 1 0 auto;
 }
@@ -146,4 +150,54 @@ main {
 .input-field input[type=text]:focus, .input-field input[type=email]:focus {
   border-bottom: 1px solid #fff!important;
   box-shadow: 0 1px 0 0 #fff!important;
+}
+
+.circle {
+  position: relative;
+  width: 10em;
+  height: 10em;
+  display: inline-block;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.circle .mask-top-container, .circle .mask-bottom-container {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 101%;
+  height: 51%;
+  overflow: hidden;
+}
+
+.circle .mask-bottom-container {
+  top: 50%;
+}
+
+.circle .mask-top, .circle .mask-bottom {
+  width: 100%;
+  height: 100%;
+  background: white;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-backface-visibility: hidden;
+}
+
+.circle .mask-bottom {
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
 }
