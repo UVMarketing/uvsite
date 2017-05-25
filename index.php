@@ -6,10 +6,17 @@
 	<html>
 
 	<head>
-		<link rel="sytlesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<meta property="og:title" content="UV Marketing" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://uvmarketing.com.mx/" />
+		<meta property="og:image" content="https://res.cloudinary.com/duhncjntk/image/upload/c_lpad,h_630,w_1200/v1495752080/uvsite/Logonuevomorado-01_nzhhdp.png" />
+		<meta name="charset" content="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 		<link rel="stylesheet" href="style/main.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<title>UV Marketing</title>
 	</head>
 
@@ -18,7 +25,7 @@
 			<!-- NAV -->
 			<nav class="transparent z-depth-0" style="height:80px;line-height:80px;background: linear-gradient(to bottom, rgba(53, 31, 57, 1), rgba(114, 106, 149, 0.1));">
 				<div class="nav-wrapper">
-					<a href="https://uvmarketing.com.mx/" class="brand-logo"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_80/v1494883514/logo_uv_pagina-01_f7gmn4.png "></a>
+					<a href="#home" class="brand-logo"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_80/v1494883514/logo_uv_pagina-01_f7gmn4.png "></a>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
 						<li><a href="#quienessomos" class="sliding-u-l-r">QUIENES SOMOS</a></li>
 						<li><a href="#servicios" class="sliding-u-l-r">SERVICIOS</a></li>
@@ -30,7 +37,7 @@
 		</div>
 		<!-- /NAV -->
 		<!-- HOME -->
-		<section id="home" class="valign-wrapper home section scrollspy" style="margin-top:-7em;height:110vh">
+		<section id="home" class="valign-wrapper home section scrollspy" style="margin-top:-4em;height:80vh">
 			<div class="container">
 				<div class="row animatable fadeIn">
 					<div class="col s4 offset-s1">
@@ -54,20 +61,20 @@
 					</div>
 				</div>
 				<div class="row left-align valign-wrapper">
-					<div class="col s5 animatable fadeInLeft">
+					<div class="col s4 animatable fadeInLeft">
 						<p>Jóvenes profesionales dedicados a crear, desarrollar e implementar estrategias de marketing que vayan <b>más allá de lo visible.</b></p>
-						<br>
-						<p>Combinamos nuestras 3 áreas de trabajo para poder generar acciones que aumenten la probabilidad de concretar ventas de nuestros clientes.</p>
+						<p style="padding-top:15px">Combinamos nuestras 3 áreas de trabajo para poder generar acciones que aumenten la probabilidad de concretar ventas de nuestros clientes.</p>
 					</div>
-					<div class="col s6 offset-s1 center-align">
+					<div class="col s8 center-align" style="font-size:1.5em">
 						<div class="circle">
-							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574824/uvsite/circulo_morado-01.svg" class="" />
+							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574824/uvsite/circulo_morado-01.svg" class="responsive-img" />
 							<div class="mask-top-container">
 								<div class="mask-top"></div>
 							</div>
 							<div class="mask-bottom-container">
 								<div class="mask-bottom"></div>
 							</div>
+							<b>Marketing</b>
 						</div>
 						<div class="circle">
 							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574820/uvsite/circulo_lila-01.svg" class="" />
@@ -77,6 +84,7 @@
 							<div class="mask-bottom-container">
 								<div class="mask-bottom"></div>
 							</div>
+							<b>Tecnologías de la Información</b>
 						</div>
 						<div class="circle">
 							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574827/uvsite/circulo_turquesa-01.svg" class="" />
@@ -86,14 +94,12 @@
 							<div class="mask-bottom-container">
 								<div class="mask-bottom"></div>
 							</div>
+							<b>Diseño Gráfico</b>
 						</div>
-						<div class="row left-align">
+						<!--<div class="row left-align">
 							<div class="col s6 offset-s4">
-								<h4>Marketing</h4>
-								<h4>Tecnologías de la Información</h4>
-								<h4>Diseño Gráfico</h4>
 							</div>
-						</div>
+						</div>-->
 						<!--<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495229595/uvsite/areasuv-01.png" alt="graphs" class="responsive-img">-->
 					</div>
 				</div>
@@ -113,15 +119,11 @@
 				<span class="bgtext">UV</span>
 				<div class="col m4 bgimg" style="background-image:url('https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1495483008/uvsite/pexels-photo-191830.jpg');">
 				</div>
-				<div class="col m4 white-text animatable fadeInUp">
-					<p><b>Web Search Engine</b></p>
-					<p>Llega a las personas que están buscando negocios como el tuyo.</p><br>
-					<p><b>Desarrollo Web</b></p>
-					<p>Coloca tu negocio en la red y brinda la información y servicios que necesitan tus clientes.</p><br>
-					<p><b>Campañas Publicitarias - UV Technologies</b></p>
-					<p>¿Deseas lanzar un nuevo producto o posicionar tu marca? Imagina usar las últimas tendencias en tecnología para hacerlo.</p><br>
-					<p><b>Identidad Corporativa</b></p>
-					<p>Transmite lo que es en realidad tu negocio a través de tu imagen.</p>
+				<div class="col m4 white-text animatable fadeInUp serv" style="margin: 5em 0em 5em 5em; font-weight:100;">
+					<p><b>Web Search Engine</b><br>Llega a las personas que están buscando negocios como el tuyo.</p>
+					<p><b>Desarrollo Web</b><br>Coloca tu negocio en la red y brinda la información y servicios que necesitan tus clientes.</p>
+					<p><b>Campañas Publicitarias - UV Technologies</b><br>¿Deseas lanzar un nuevo producto o posicionar tu marca? Imagina usar las últimas tendencias en tecnología para hacerlo.</p>
+					<p><b>Identidad Corporativa</b><br>Transmite lo que es en realidad tu negocio a través de tu imagen.</p>
 				</div>
 				<div class="col m4 center-align ">
 					<a class="waves-effect waves white cyan-text btn animated infinite pulse">Conoce más</a>
@@ -166,7 +168,7 @@
 					<div class="col l7 s12 home">
 						<h3>CONTACTANOS</h3>
 						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/raya-01.png">
-						<p>Este es el primer paso para iniciar una estrategia <i>ultravioleta</i>.<br>Déjanos tus datos y nos comunicaremos a la brevedad posible.</p>
+						<p>Este es el primer paso para iniciar una estrategia <i>ultravioleta</i>.Déjanos tus datos y nos comunicaremos a la brevedad posible.</p>
 						<form class="col s12">
 							<div class="row">
 								<div class="input-field col s10">
@@ -204,11 +206,11 @@
 					<div class="col l5 s12 purple">
 						<h3 class="white-text">NUESTRA OFICINA</h3>
 						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/raya-01.png">
-						<p>Avenida Universidad de Wisconsin #208 Int. J<br> Colonia Universidad Sur, CP 89109 <br> Tampico, Tamaulipas, México.
+						<p>Avenida Universidad de Wisconsin #208 Int. J Colonia Universidad Sur, CP 89109 Tampico, Tamaulipas, México.
 						</p>
-						<p>Teléfono <br>
+						<p>Teléfono
 							<b>(833)</b>217 06 22</p>
-						<p>Correo electrónico<br>
+						<p>Correo electrónico
 							<a href="mailto:contacto@uvmarketing.com.mx" class="deep-purple-text">contacto@uvmarketing.com.mx</a></p>
 					</div>
 				</div>
@@ -220,7 +222,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col l12 s12 center">
-						<h5 class="white-text small">UV Marketing <br><small class="grey-text text-lighten-4">Mercadotecnia Digital</small></h5>
+						<h5 class="white-text small">UV Marketing <small class="grey-text text-lighten-4">Mercadotecnia Digital</small></h5>
 					</div>
 				</div>
 			</div>
