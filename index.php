@@ -13,6 +13,7 @@
 		<meta property="og:description" content="Jóvenes profesionales dedicados a crear, desarrollar e implementar estrategias de marketing que vayan más allá de lo visible.">
 		<meta name="charset" content="UTF-8">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 		<link rel="stylesheet" href="style/main.css">
@@ -66,9 +67,9 @@
 						<p>Jóvenes profesionales dedicados a crear, desarrollar e implementar estrategias de marketing que vayan <b>más allá de lo visible.</b></p>
 						<p style="padding-top:15px">Combinamos nuestras 3 áreas de trabajo para poder generar acciones que aumenten la probabilidad de concretar ventas de nuestros clientes.</p>
 					</div>
-					<div class="col s6 offset-s1 center-align" style="font-size:1em">
+					<div class="col s5 offset-s2 center-align" style="font-size:1em">
 						<div class="circle">
-							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574824/uvsite/circulo_morado-01.svg" class="" />
+							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574824/uvsite/circulo_morado-01.svg" />
 							<div class="mask-top-container">
 								<div class="mask-top"></div>
 							</div>
@@ -78,7 +79,7 @@
 							<b class="qs">Marketing</b>
 						</div>
 						<div class="circle">
-							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574820/uvsite/circulo_lila-01.svg" class="" />
+							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574820/uvsite/circulo_lila-01.svg" />
 							<div class="mask-top-container">
 								<div class="mask-top"></div>
 							</div>
@@ -88,7 +89,7 @@
 							<b class="qs">Tecnologías de la Información</b>
 						</div>
 						<div class="circle">
-							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574827/uvsite/circulo_turquesa-01.svg" class="" />
+							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574827/uvsite/circulo_turquesa-01.svg" />
 							<div class="mask-top-container">
 								<div class="mask-top"></div>
 							</div>
@@ -209,34 +210,34 @@
 						<p style="padding-top:5em">Avenida Universidad de Wisconsin #208 Int. J<br>Colonia Universidad Sur, CP 89109<br>Tampico, Tamaulipas, México.</p>
 						<p style="padding-top:2em">Teléfono<br> (833) 217 06 22</p>
 						<p style="padding-top:2em">Correo electrónico<br>
-							<a href="mailto:contacto@uvmarketing.com.mx " class="white-text ">contacto@uvmarketing.com.mx</a></p>
+							<a href="mailto:contacto@uvmarketing.com.mx" class="white-text">contacto@uvmarketing.com.mx</a></p><i class="material-icons right-align" style="display:block!important; font-size:8rem!important;">location_on</i>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- /CONTACT -->
 		<!-- FOOTER -->
-		<footer class="page-footer grey darken-2 animatable fadeIn ">
-			<div class="container ">
-				<div class="row ">
-					<div class="col l12 s12 center ">
-						<h5 class="white-text small ">UV Marketing <br><small class="grey-text text-lighten-4 ">Mercadotecnia Digital</small></h5>
+		<footer class="page-footer grey darken-2 animatable fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col l12 s12 center">
+						<h5 class="white-text small">UV Marketing <br><small class="grey-text text-lighten-4">Mercadotecnia Digital</small></h5>
 					</div>
 				</div>
 			</div>
-			<div class="footer-copyright ">
-				<div class="container ">
+			<div class="footer-copyright">
+				<div class="container">
 					©
 					<?php echo date('Y') ?> Copyright UV Marketing
-					<a class="grey-text text-lighten-4 right " href="mailto:contacto@uvmarketing.com.mx ">contacto@uvmarketing.com.mx</a>
+					<a class="grey-text text-lighten-4 right" href="mailto:contacto@uvmarketing.com.mx">contacto@uvmarketing.com.mx</a>
 				</div>
 			</div>
 		</footer>
 		<!-- /FOOTER -->
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js "></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js "></script>
-		<script src="assets/app.js "></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+		<script src="assets/app.js"></script>
 	</body>
 
 	</html>
