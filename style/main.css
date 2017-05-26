@@ -9,8 +9,12 @@ body {
   flex-direction: column;
 }
 
+nav .brand-logo {
+  padding-left: .5em!important;
+}
+
 p {
-  font-size: 1em !important;
+  font-size: 1em!important;
 }
 
 b {
@@ -24,7 +28,7 @@ b {
 
 h2 {
   font-size: 2.5em;
-  font-style: normal;
+  font-weight: 700;
   display: inline-block;
 }
 
@@ -86,7 +90,7 @@ main {
 }
 
 .bgimg {
-  height: 34em;
+  height: 40em;
   background-size: cover;
   background-position: center center;
   opacity: .2;
@@ -105,15 +109,19 @@ main {
 }
 
 .purple-text {
-  color: #351F39 !important;
+  color: #351F39!important;
 }
 
 .purple {
-  background: #351F39!important
+  background: #351F39!important;
+}
+
+.light-purple {
+  background: #726A95!important;
 }
 
 .cyan, .cyan-text {
-  color: #709FB0 !important;
+  color: #709FB0!important;
 }
 
 .sliding-u-l-r {
@@ -123,7 +131,7 @@ main {
   transition: 0.5s ease;
   white-space: nowrap;
   height: 25px;
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color: rgba(0, 0, 0, 0)!important;
 }
 
 .sliding-u-l-r:after {
@@ -133,13 +141,13 @@ main {
   height: 2px;
   background: #FFF;
   transition: width .3s;
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color: rgba(0, 0, 0, 0)!important;
 }
 
 .sliding-u-l-r:hover:after {
   border-bottom: 3px solid white;
   width: 50%;
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color: rgba(0, 0, 0, 0)!important;
 }
 
 .btn {
