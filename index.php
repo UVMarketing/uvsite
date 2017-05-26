@@ -62,20 +62,20 @@
 					</div>
 				</div>
 				<div class="row left-align valign-wrapper">
-					<div class="col s4 animatable fadeInLeft">
+					<div class="col s5 animatable fadeInLeft">
 						<p>Jóvenes profesionales dedicados a crear, desarrollar e implementar estrategias de marketing que vayan <b>más allá de lo visible.</b></p>
 						<p style="padding-top:15px">Combinamos nuestras 3 áreas de trabajo para poder generar acciones que aumenten la probabilidad de concretar ventas de nuestros clientes.</p>
 					</div>
-					<div class="col s8 center-align" style="font-size:1.5em">
+					<div class="col s6 offset-s1 center-align" style="font-size:1em">
 						<div class="circle">
-							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574824/uvsite/circulo_morado-01.svg" class="responsive-img" />
+							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574824/uvsite/circulo_morado-01.svg" class="" />
 							<div class="mask-top-container">
 								<div class="mask-top"></div>
 							</div>
 							<div class="mask-bottom-container">
 								<div class="mask-bottom"></div>
 							</div>
-							<b>Marketing</b>
+							<b class="qs">Marketing</b>
 						</div>
 						<div class="circle">
 							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574820/uvsite/circulo_lila-01.svg" class="" />
@@ -85,7 +85,7 @@
 							<div class="mask-bottom-container">
 								<div class="mask-bottom"></div>
 							</div>
-							<b>Tecnologías de la Información</b>
+							<b class="qs">Tecnologías de la Información</b>
 						</div>
 						<div class="circle">
 							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574827/uvsite/circulo_turquesa-01.svg" class="" />
@@ -95,8 +95,9 @@
 							<div class="mask-bottom-container">
 								<div class="mask-bottom"></div>
 							</div>
-							<b>Diseño Gráfico</b>
+							<b class="qs">Diseño Gráfico</b>
 						</div>
+
 						<!--<div class="row left-align">
 							<div class="col s6 offset-s4">
 							</div>
@@ -204,10 +205,10 @@
 						</form>
 					</div>
 					<div class="col l6 s12 purple" style="padding-left:5em;">
-						<h2 class="white-text ">NUESTRA OFICINA</h2>
-						<p style="padding-top:5em ">Avenida Universidad de Wisconsin #208 Int. J<br>Colonia Universidad Sur, CP 89109<br>Tampico, Tamaulipas, México.</p>
-						<p style="padding-top:2em ">Teléfono<br> (833) 217 06 22</p>
-						<p style="padding-top:2em ">Correo electrónico<br>
+						<h2 class="white-text">NUESTRA OFICINA</h2>
+						<p style="padding-top:5em">Avenida Universidad de Wisconsin #208 Int. J<br>Colonia Universidad Sur, CP 89109<br>Tampico, Tamaulipas, México.</p>
+						<p style="padding-top:2em">Teléfono<br> (833) 217 06 22</p>
+						<p style="padding-top:2em">Correo electrónico<br>
 							<a href="mailto:contacto@uvmarketing.com.mx " class="white-text ">contacto@uvmarketing.com.mx</a></p>
 					</div>
 				</div>
