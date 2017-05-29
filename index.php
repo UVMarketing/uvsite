@@ -63,11 +63,11 @@
 					</div>
 				</div>
 				<div class="row left-align valign-wrapper">
-					<div class="col s5 animatable fadeInLeft">
+					<div class="col l5 s12 animatable fadeInLeft">
 						<p>Jóvenes profesionales dedicados a crear, desarrollar e implementar estrategias de marketing que vayan <b>más allá de lo visible.</b></p>
 						<p style="padding-top:15px">Combinamos nuestras 3 áreas de trabajo para poder generar acciones que aumenten la probabilidad de concretar ventas de nuestros clientes.</p>
 					</div>
-					<div class="col s5 offset-s2 center-align hide-on-med-and-down" style="font-size:1em">
+					<div class="col l5 offset-l2 center-align hide-on-med-and-down" style="font-size:1em">
 						<div class="circle">
 							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574824/uvsite/circulo_morado-01.svg" />
 							<div class="mask-top-container">
@@ -99,7 +99,7 @@
 							<b class="qs">Diseño Gráfico</b>
 						</div>
 					</div>
-					<div class="col s5 offset-s2 hide-on-large-only animatable fadeInRight">
+					<div class="col s12 hide-on-large-only animatable fadeInRight">
 						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495229595/uvsite/areasuv-01.png" alt="graphs" class="responsive-img">
 					</div>
 				</div>
@@ -117,15 +117,15 @@
 			</div>
 			<div class="row valign-wrapper cyan" style="background-color: #709FB0!important;margin-bottom:-1em;position: relative;">
 				<span class="bgtext">UV</span>
-				<div class="col m4 bgimg" style="background-image:url('https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1495483008/uvsite/pexels-photo-191830.jpg');">
+				<div class="col l4 s12 bgimg" style="background-image:url('https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1495483008/uvsite/pexels-photo-191830.jpg');">
 				</div>
-				<div class="col m4 white-text animatable fadeInUp serv" style="padding-left:5em;font-weight:100;">
+				<div class="col l4 s12 white-text animatable fadeInUp serv" style="padding-left:5em;font-weight:100;">
 					<p><b>Web Search Engine</b><br>Llega a las personas que están buscando negocios como el tuyo.</p>
 					<p><b>Desarrollo Web</b><br>Coloca tu negocio en la red y brinda la información y servicios que necesitan tus clientes.</p>
 					<p><b>Campañas Publicitarias - UV Technologies</b><br>¿Deseas lanzar un nuevo producto o posicionar tu marca? Imagina usar las últimas tendencias en tecnología para hacerlo.</p>
 					<p><b>Identidad Corporativa</b><br>Transmite lo que es en realidad tu negocio a través de tu imagen.</p>
 				</div>
-				<div class="col m4 center-align ">
+				<div class="col l4 s12 center-align ">
 					<a class="waves-effect waves white cyan-text btn animated infinite pulse">Conoce más</a>
 				</div>
 			</div>
@@ -134,17 +134,17 @@
 		<!-- CLIENTES -->
 		<section id="clientes" class="section scrollspy">
 			<div class="row valign-wrapper">
-				<div class="col m9">
+				<div class="col s9 l9">
 					<div class="carousel animatable fadeIn">
 						<?php
 				foreach ($clients as $key => $value) {
 					echo "<a href='#!' class='carousel-item'>
-						<div class='col m12'>
+						<div class='col s12'>
 							<div class='card-panel hoverable light-purple' style='height:35vh;width:30vw'>
-								<div class='card-image col m12'>
+								<div class='card-image col s12'>
 									<img src='$value->picture' class='right' style='img-responsive'>
 								</div>
-								<div class='card-content col m12'>
+								<div class='card-content col s12'>
 									<p class='white-text' style='font-size:1.5em'>
 									$value->comment
 									</p>
@@ -156,7 +156,7 @@
 				?>
 					</div>
 				</div>
-				<div class="col m3">
+				<div class="col s3 l3">
 					<h2 class="purple-text animatable fadeIn">CLIENTES</h2>
 				</div>
 			</div>
