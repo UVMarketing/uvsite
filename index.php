@@ -11,6 +11,8 @@
 		<meta property="og:url" content="https://uvmarketing.com.mx/" />
 		<meta property="og:image" content="https://res.cloudinary.com/duhncjntk/image/upload/c_lpad,h_630,w_1200/v1495752080/LogoNuevo.png" />
 		<meta property="og:description" content="Jóvenes profesionales dedicados a crear, desarrollar e implementar estrategias de marketing que vayan más allá de lo visible.">
+		<meta name="description" content="Jóvenes profesionales dedicados a crear, desarrollar e implementar estrategias de marketing que vayan más allá de lo visible." />
+		<meta name="robots" content="index, follow" />
 		<meta name="charset" content="UTF-8">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
