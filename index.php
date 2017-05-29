@@ -67,7 +67,7 @@
 						<p>Jóvenes profesionales dedicados a crear, desarrollar e implementar estrategias de marketing que vayan <b>más allá de lo visible.</b></p>
 						<p style="padding-top:15px">Combinamos nuestras 3 áreas de trabajo para poder generar acciones que aumenten la probabilidad de concretar ventas de nuestros clientes.</p>
 					</div>
-					<div class="col s5 offset-s2 center-align" style="font-size:1em">
+					<div class="col s5 offset-s2 center-align hide-on-med-and-down" style="font-size:1em">
 						<div class="circle">
 							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574824/uvsite/circulo_morado-01.svg" />
 							<div class="mask-top-container">
@@ -98,12 +98,9 @@
 							</div>
 							<b class="qs">Diseño Gráfico</b>
 						</div>
-
-						<!--<div class="row left-align">
-							<div class="col s6 offset-s4">
-							</div>
-						</div>-->
-						<!--<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495229595/uvsite/areasuv-01.png" alt="graphs" class="responsive-img">-->
+					</div>
+					<div class="col s5 offset-s2 hide-on-large-only animatable fadeInRight">
+						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495229595/uvsite/areasuv-01.png" alt="graphs" class="responsive-img">
 					</div>
 				</div>
 			</div>

@@ -85,7 +85,7 @@ main {
   right: 0;
   letter-spacing: -.18em;
   bottom: -.5em;
-  clip: rect(0em, 2em, 1em, 0em);
+  clip: rect(0em, .93em, 1em, 0em);
 }
 
 .bgimg {
