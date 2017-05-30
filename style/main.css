@@ -99,12 +99,25 @@ main {
   font-size: 1em;
 }
 
-.home {
+#home {
+  background: #351F39;
+  background: -webkit-linear-gradient(left, rgba(53, 31, 57, .7), rgba(114, 106, 149, .7)), url("https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1496178154/uvsite/foto1-01.png") no-repeat center center!important;
+  background: -o-linear-gradient(left, rgba(53, 31, 57, .7), rgba(114, 106, 149, .7)), url("https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1496178154/uvsite/foto1-01.png") no-repeat center center!important;
+  background: -moz-linear-gradient(left, rgba(53, 31, 57, .7), rgba(114, 106, 149, .7)), url("https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1496178154/uvsite/foto1-01.png") no-repeat center center!important;
+  background: linear-gradient(left, rgba(53, 31, 57, .7), rgba(114, 106, 149, .7)), url("https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1496178154/uvsite/foto1-01.png") no-repeat center center!important;
+}
+
+.form {
   background: #351F39;
   background: -webkit-linear-gradient(left, #351F39, #726A95)!important;
   background: -o-linear-gradient(left, #351F39, #726A95)!important;
   background: -moz-linear-gradient(left, #351F39, #726A95)!important;
   background: linear-gradient(left, #351F39, #726A95)!important;
+}
+
+#map {
+  height: 20vh;
+  width: 100%;
 }
 
 .purple-text {
@@ -155,7 +168,7 @@ main {
   border-radius: 15px;
 }
 
-.col.m4>.btn {
+.col.l4>.btn {
   width: 60%;
 }
 

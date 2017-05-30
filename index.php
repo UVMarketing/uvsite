@@ -41,7 +41,7 @@
 		</div>
 		<!-- /NAV -->
 		<!-- HOME -->
-		<section id="home" class="valign-wrapper home section scrollspy" style="margin-top:-4em;height:80vh">
+		<section id="home" class="valign-wrapper section scrollspy" style="margin-top:-4em;height:80vh">
 			<div class="container">
 				<div class="row animatable fadeIn">
 					<div class="col s4 offset-s1">
@@ -127,7 +127,7 @@
 					<p><b>Campañas Publicitarias - UV Technologies</b><br>¿Deseas lanzar un nuevo producto o posicionar tu marca? Imagina usar las últimas tendencias en tecnología para hacerlo.</p>
 					<p><b>Identidad Corporativa</b><br>Transmite lo que es en realidad tu negocio a través de tu imagen.</p>
 				</div>
-				<div class="col l4 s12 center-align ">
+				<div class="col l4 s12 center-align">
 					<a class="waves-effect waves white cyan-text btn animated infinite pulse">Conoce más</a>
 				</div>
 			</div>
@@ -164,10 +164,10 @@
 			</div>
 		</section>
 		<!-- CONTACT -->
-		<section id="contact" class="white-text purple home section scrollspy">
+		<section id="contact" class="white-text purple section scrollspy">
 			<div class="container">
 				<div class="row" style="margin-bottom:-1em;margin-top:-1em">
-					<div class="col l6 s12 home">
+					<div class="col l6 s12 form">
 						<h2>CONTACTANOS</h2>
 						<p>Este es el primer paso para iniciar una estrategia <i>ultravioleta</i>.<br>Déjanos tus datos y nos comunicaremos a la brevedad posible.</p>
 						<form class="col s12">
@@ -210,6 +210,23 @@
 						<p style="padding-top:2em">Teléfono<br> (833) 217 06 22</p>
 						<p style="padding-top:2em">Correo electrónico<br>
 							<a href="mailto:contacto@uvmarketing.com.mx" class="white-text">contacto@uvmarketing.com.mx</a></p><i class="material-icons right-align" style="display:block!important; font-size:8rem!important;">location_on</i>
+						<div id="map"></div>
+						<script>
+							function initMap() {
+								var office = {
+									lat: 22.271704,
+									lng: -97.859853
+								};
+								var map = new google.maps.Map(document.getElementById('map'), {
+									zoom: 17,
+									center: office
+								});
+								var marker = new google.maps.Marker({
+									position: office,
+									map: map
+								});
+							}
+						</script>
 					</div>
 				</div>
 			</div>
@@ -233,6 +250,7 @@
 			</div>
 		</footer>
 		<!-- /FOOTER -->
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsDqRk-DIIDxUMVc8nmzcImD4Z-94Zrfo&callback=initMap"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
