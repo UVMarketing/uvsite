@@ -210,6 +210,10 @@
 						<p style="padding-top:2em">Teléfono<br> (833) 217 06 22</p>
 						<p style="padding-top:2em">Correo electrónico<br>
 							<a href="mailto:contacto@uvmarketing.com.mx" class="white-text">contacto@uvmarketing.com.mx</a></p><i class="material-icons right-align" style="display:block!important; font-size:8rem!important;">location_on</i>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
 						<div id="map"></div>
 						<script>
 							function initMap() {
