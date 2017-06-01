@@ -45,7 +45,7 @@
 			<div class="container">
 				<div class="row animatable fadeIn">
 					<div class="col s4 offset-s1">
-						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/lupa.png" alt="Lupa" class="responsive-img">
+						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/lupa.png" class="responsive-img">
 					</div>
 					<div class="col s6 offset-s1 white-text">
 						<h1 style="font-size:6em"><strong>¿clientes?</strong></h1>
@@ -167,7 +167,7 @@
 		<section id="contact" class="white-text purple section scrollspy">
 			<div class="container">
 				<div class="row" style="margin-bottom:-1em;margin-top:-1em">
-					<div class="col l6 s12 form">
+					<div class="col l6 s12 form" style="font-weight:100;">
 						<h2>CONTACTANOS</h2>
 						<p>Este es el primer paso para iniciar una estrategia <i>ultravioleta</i>.<br>Déjanos tus datos y nos comunicaremos a la brevedad posible.</p>
 						<form class="col s12">
