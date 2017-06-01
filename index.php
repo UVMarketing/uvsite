@@ -119,7 +119,7 @@
 			</div>
 			<div class="row valign-wrapper cyan" style="background-color: #709FB0!important;margin-bottom:-1em;position: relative;">
 				<span class="bgtext">UV</span>
-				<div class="col l4 s12 bgimg" style="background-image:url('https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1495483008/uvsite/pexels-photo-191830.jpg');">
+				<div class="col l4 s12 bgimg" style="background-image:url('https://res.cloudinary.com/duhncjntk/image/upload/c_scale,q_30,w_1920/v1495483008/uvsite/image02-01.jpg');">
 				</div>
 				<div class="col l4 s12 white-text animatable fadeInUp serv" style="padding-left:5em;font-weight:100;">
 					<p><b>Web Search Engine</b><br>Llega a las personas que están buscando negocios como el tuyo.</p>
@@ -166,7 +166,7 @@
 		<!-- CONTACT -->
 		<section id="contact" class="white-text purple section scrollspy">
 			<div class="container">
-				<div class="row" style="margin-bottom:-1em;margin-top:-1em">
+				<div class="row" style="margin-top:-1em">
 					<div class="col l6 s12 form" style="font-weight:100;">
 						<h2>CONTACTANOS</h2>
 						<p>Este es el primer paso para iniciar una estrategia <i>ultravioleta</i>.<br>Déjanos tus datos y nos comunicaremos a la brevedad posible.</p>
@@ -204,12 +204,12 @@
 							</div>
 						</form>
 					</div>
-					<div class="col l6 s12 purple" style="padding-left:5em;">
+					<div class="col l6 s12 purple" style="padding-left:5em;font-weight:100;">
 						<h2 class="white-text">NUESTRA OFICINA</h2>
 						<p style="padding-top:5em">Avenida Universidad de Wisconsin #208 Int. J<br>Colonia Universidad Sur, CP 89109<br>Tampico, Tamaulipas, México.</p>
 						<p style="padding-top:2em">Teléfono<br> (833) 217 06 22</p>
 						<p style="padding-top:2em">Correo electrónico<br>
-							<a href="mailto:contacto@uvmarketing.com.mx" class="white-text">contacto@uvmarketing.com.mx</a></p><i class="material-icons right-align" style="display:block!important; font-size:8rem!important;">location_on</i>
+							<a href="mailto:contacto@uvmarketing.com.mx" class="white-text">contacto@uvmarketing.com.mx</a></p><i class="material-icons right-align" style="display:block!important; font-size:8rem!important; position:relative!important; top: -1.5em;">location_on</i>
 					</div>
 				</div>
 				<div class="row">

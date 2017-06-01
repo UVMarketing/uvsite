@@ -101,10 +101,13 @@ main {
 
 #home {
   background: #351F39;
-  background: -webkit-linear-gradient(left, rgba(53, 31, 57, .9), rgba(114, 106, 149, .9)), url("https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1496178154/uvsite/foto1-01.png") no-repeat center!important;
-  background: -o-linear-gradient(left, rgba(53, 31, 57, .9), rgba(114, 106, 149, .9)), url("https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1496178154/uvsite/foto1-01.png") no-repeat center!important;
-  background: -moz-linear-gradient(left, rgba(53, 31, 57, .9), rgba(114, 106, 149, .9)), url("https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1496178154/uvsite/foto1-01.png") no-repeat center!important;
-  background: linear-gradient(left, rgba(53, 31, 57, .9), rgba(114, 106, 149, .9)), url("https://res.cloudinary.com/duhncjntk/image/upload/q_30/v1496178154/uvsite/foto1-01.png") no-repeat center!important;
+  background: -webkit-linear-gradient(left, rgba(53, 31, 57, .9), rgba(114, 106, 149, .9)), url("https://res.cloudinary.com/duhncjntk/image/upload/c_scale,q_30,w_1920/v1496178154/uvsite/foto1-01.jpg") no-repeat center!important;
+  background: -o-linear-gradient(left, rgba(53, 31, 57, .9), rgba(114, 106, 149, .9)), url("https://res.cloudinary.com/duhncjntk/image/upload/c_scale,q_30,w_1920/v1496178154/uvsite/foto1-01.jpg") no-repeat center!important;
+  background: -moz-linear-gradient(left, rgba(53, 31, 57, .9), rgba(114, 106, 149, .9)), url("https://res.cloudinary.com/duhncjntk/image/upload/c_scale,q_30,w_1920/v1496178154/uvsite/foto1-01.jpg") no-repeat center!important;
+  background: linear-gradient(left, rgba(53, 31, 57, .9), rgba(114, 106, 149, .9)), url("https://res.cloudinary.com/duhncjntk/image/upload/c_scale,q_30,w_1920/v1496178154/uvsite/foto1-01.jpg") no-repeat center!important;
+  -webkit-background-size: cover!important;
+  -o-background-size: cover!important;
+  -moz-background-size: cover!important;
   background-size: cover!important;
 }
 
