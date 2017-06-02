@@ -25,8 +25,8 @@
 	</head>
 
 	<body>
-		<div class="navbar-fixed animatable fadeInDown">
-			<!-- NAV -->
+		<!-- NAV -->
+		<div class="navbar-fixed">
 			<nav class="transparent z-depth-0" style="height:80px;line-height:80px;background: linear-gradient(to bottom, rgba(53, 31, 57, 1), rgba(114, 106, 149, 0.1));">
 				<div class="nav-wrapper">
 					<a href="#home" class="brand-logo"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_80/v1494883514/logo_uv_pagina-01_f7gmn4.png "></a>
@@ -78,7 +78,7 @@
 							<div class="mask-bottom-container">
 								<div class="mask-bottom"></div>
 							</div>
-							<b class="qs">Marketing</b>
+							<p class="qs">Marketing</p>
 						</div>
 						<div class="circle">
 							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574820/uvsite/circulo_lila-01.svg" />
@@ -88,7 +88,7 @@
 							<div class="mask-bottom-container">
 								<div class="mask-bottom"></div>
 							</div>
-							<b class="qs">Tecnologías de la Información</b>
+							<p class="qs">Tecnologías de la Información</p>
 						</div>
 						<div class="circle">
 							<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1495574827/uvsite/circulo_turquesa-01.svg" />
@@ -98,7 +98,7 @@
 							<div class="mask-bottom-container">
 								<div class="mask-bottom"></div>
 							</div>
-							<b class="qs">Diseño Gráfico</b>
+							<p class="qs">Diseño Gráfico</p>
 						</div>
 					</div>
 					<div class="col s12 hide-on-large-only animatable fadeInRight">
