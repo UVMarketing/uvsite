@@ -1,6 +1,7 @@
 <?php
-	require 'config/db.php';
-	$clients = R::findAll('client');
+	session_start();
+	//require 'config/db.php';
+	//$clients = R::findAll('client');
  ?>
 	<!DOCTYPE html>
 	<html>
@@ -50,6 +51,11 @@
 					<div class="col s6 offset-s1 white-text">
 						<h1 style="font-size:6em"><strong>¿clientes?</strong></h1>
 						<h3 class="left-align" style="font-weight:100;">ellos te buscan, nosotros los encontramos.</h3>
+						<h4><?php
+							if (isset($_SESSION['message'])) {
+								echo $_SESSION['message'];
+							}
+						 ?></h4>
 						<img src="https://res.cloudinary.com/duhncjntk/image/upload/v1494893710/uvsite/raya-01.png">
 					</div>
 				</div>
@@ -170,7 +176,7 @@
 					<div class="col l6 s12 form" style="font-weight:100;">
 						<h2>CONTACTANOS</h2>
 						<p>Este es el primer paso para iniciar una estrategia <i>ultravioleta</i>.<br>Déjanos tus datos y nos comunicaremos a la brevedad posible.</p>
-						<form class="col s12">
+						<form class="col s12" action="config/save.php" method="POST">
 							<div class="row">
 								<div class="input-field col s10">
 									<input type="text" name="name" class="validate white-text" required>
@@ -254,8 +260,7 @@
 			</div>
 		</footer>
 		<!-- /FOOTER -->
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsDqRk-DIIDxUMVc8nmzcImD4Z-94Zrfo&callback=initMap"></script>
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsDqRk-DIIDxUMVc8nmzcImD4Z-94Zrfo&callback=initMap"></script>
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 		<script src="assets/app.js"></script>
