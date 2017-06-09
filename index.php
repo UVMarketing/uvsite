@@ -1,7 +1,7 @@
 <?php
 	session_start();
-	//require 'config/db.php';
-	//$clients = R::findAll('client');
+	require 'config/db.php';
+	$clients = R::findAll('client');
  ?>
 	<!DOCTYPE html>
 	<html>
