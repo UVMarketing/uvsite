@@ -28,7 +28,6 @@ module.exports = function(grunt) {
           optimization: 2
         },
         files: {
-          // target.css file: source.sass file
           'public/css/main.css': 'assets/sass/main.scss',
 
         }
@@ -37,8 +36,8 @@ module.exports = function(grunt) {
 
     watch: {
       styles: {
-        files: ['assets/**/*'],
-        tasks: ['sass'],
+        files: ['assets/views/*.pug','assets/sass/*.scss'],
+        tasks: ['sass','pug'],
         options: {
           nospawn: true,
           livereload: {
@@ -50,7 +49,7 @@ module.exports = function(grunt) {
     },
     livereload: {
       options: { livereload: true },
-      files: ['public/**/*'],
+      files: ['public/index.html'],
     },
     serve: {
       options: {
@@ -60,5 +59,5 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['pug','sass','serve','watch']);
+  grunt.registerTask('default', ['pug','sass','watch','serve']);
 };
