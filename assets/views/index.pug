@@ -1,14 +1,84 @@
 doctype html
 html(lang="es")
 	head
-		link(href='/public/css/main.css', rel='stylesheet')
-		title Jade
+		meta(charset='UTF-8')
+		link(href='css/main.css', rel='stylesheet')
+		title Mercadotecnia Digital
 	body
-		h1 Hola ke ase
-		#container.col
-			p KKasdas
-			p
-				| Jade is a terse and simple
-				| asdasdasdasdadas language with a
-				| strong focus on performance
-				| and powerful features.
+		.navbar-fixed
+			nav
+				.nav-wrapper
+					a.brand-logo(href="#home") Logo
+					a.button-collapse(href="#", data-activates="mobile-demo") #[i.material-icons menu]
+					ul.right.hide-on-med-and-down
+						li #[a(href="#who") WHO]
+						li #[a(href="#what") WHAT]
+						li #[a(href="#why") WHY]
+						li #[a(href="#where") WHERE]
+		section#home
+			h1 ¿CLIENTES?
+			p ellos te buscan, #[br] nosotros los encontramos
+		section#who
+			.container
+				.row
+					.col.l6.m6.s12 #[img.responsive-img(ref='https://image.com/whologo')]
+					.col.l6.m6.s12.center
+						h5 Jóvenes profesionales
+						p dedicados a crear, desarrollar e implemetar estrategias de marketing que vayan más alla de lo visible
+						p Combinamos nuestras 3 áreas de trabajo para poder genear acciones que aumenten la probabilidad de concretar ventas de nuestros clientes.
+						.col.m4 #[img.responsive-img(ref='https://image.com/who_bulb')]
+						.col.m4 #[img.responsive-img(ref='https://image.com/who_usb')]
+						.col.m4 #[img.responsive-img(ref='https://image.com/who_brush')]
+						.col.m12 #[h1 Marketing]
+		section#what
+			.container
+				.row
+					.col.l6.m6.s12 #[img.responsive-img(ref='https://image.com/what_seo')] #[b Web Search Engine] #[p Llega a las personas que están buscando negocios como el tuyo]
+					.col.l6.m6.s12 #[img.responsive-img(ref='https://image.com/what_coi')] #[b Desarrollo Web] #[p Coloca tu negocio en la red y brinda la información y servicios que necesitan tus clientes]
+					.col.l6.m6.s12 #[img.responsive-img(ref='https://image.com/what_pub')] #[b Identidad Corporativa] #[p Transmite lo que es en realidad tu negocio a través de tu imagen]
+					.col.l6.m6.s12 #[img.responsive-img(ref='https://image.com/what_pub')] #[b Campañas #[i UV Technologies]] #[p Utiliza las últimas tendencias en tecnología para tu nuevo producto o marca]
+		section#why
+			.container
+				.row
+					.col.l4.m4.s12 #[img.responsive-img(ref='https://image.com/clients_sal')]
+					.col.l4.m4.s12 #[img.responsive-img(ref='https://image.com/clients_gla')]
+					.col.l4.m4.s12 #[img.responsive-img(ref='https://image.com/clients_car')]
+					.col.l4.m4.s12 #[img.responsive-img(ref='https://image.com/clients_end')]
+					.col.l4.m4.s12 #[img.responsive-img(ref='https://image.com/clients_cas')]
+					.col.l4.m4.s12 #[img.responsive-img(ref='https://image.com/clients_esc')]
+		section#where
+			.container
+				.row
+					.col.l4.s12
+						h2 NUESTRA OFICINA
+						.row #[.col.l2 #[i.fa.fa-pin]] #[.col.l10 #[p Avenida Universidad de Wisconsin #208 Int. J Colonia Universidad Sur. Tampico, Tamaulipas, México]]
+						.row #[.col.l2 #[i.fa.fa-telephone]] #[.col.l10 #[p (833) 217 06 22]]
+						.row #[.col.l2 #[i.fa.fa-mail]] #[.col.l10 #[a(href='mailto:contacto@uvmarketing.com.mx') contacto@uvmarketing.com.mx]]
+					.col.l8.s12
+						.row #[.col.l3 #[h2 CONTACTANOS]] #[.col.l9 #[p Este es el primer paso para iniciar una estrategia ultravioleta. Déjanos tus datos y nos comunicaremos a la brevedad posible]]
+					#map
+					script.
+						function initMap() {
+						var office = {
+						lat: 22.271704,
+						lng: -97.859853
+						};
+						var map = new google.maps.Map(document.getElementById('map'), {
+						zoom: 17,
+						center: office
+						});
+						var marker = new google.maps.Marker({
+						position: office,
+						map: map
+						});
+						}
+		ul#mobile-demo.side-nav
+			li #[a(href="#who") WHO]
+			li #[a(href="#what") WHAT]
+			li #[a(href="#why") WHY]
+			li #[a(href="#where") WHERE]
+		script(type='text/javascript', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDsDqRk-DIIDxUMVc8nmzcImD4Z-94Zrfo&callback=initMap')
+		script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+		script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js')
+		script.
+			$(".button-collapse").sideNav();
