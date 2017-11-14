@@ -19,21 +19,17 @@ module.exports = function(grunt) {
           ext: ".html"
         } ]
       }
-    },    
+    },
     sass: {
-      development: {
-        options: {
-          compress: true,
-          yuicompress: true,
-          optimization: 2
-        },
+      options: {
+        sourceMap: true
+      },
+      dist: {
         files: {
           'public/css/main.css': 'assets/sass/main.scss',
-
         }
       }
-    },
-
+    },    
     watch: {
       styles: {
         files: ['assets/views/*.pug','assets/sass/*.scss'],
