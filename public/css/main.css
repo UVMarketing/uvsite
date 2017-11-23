@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+.primary-color {
+  color: #351F39; }
+
+.secondary-color {
+  color: #726A95; }
+
+.success-color {
+  color: #A0C1B8; }
+
+.error-color {
+  color: #F4E8C1; }
+
+.link-color {
+  color: #709FB0; }
+
+.grey-color {
+  color: #999999; }
+
 body {
   font: 100% Roboto, sans-serif; }
 
@@ -30,10 +48,10 @@ nav img {
 
 nav ul a {
   color: #54315a !important;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 14px !important;
   margin-right: 50px !important;
-  padding: 0px 20px 0px 20px !important; }
+  padding: 0em 6em 0em 6em !important; }
 
 nav .brand-logo {
   background: #351F39 !important;
@@ -42,18 +60,57 @@ nav .brand-logo {
   border-radius: 0px 50px 50px 0px; }
 
 section {
-  height: 90vh; }
+  height: 90vh;
+  background: #f9f6fa; }
 
 section#home {
   background-image: url("https://res.cloudinary.com/uv-marketing/image/upload/v1510623925/home_k2rxi1.png");
   background-size: auto 100%;
   margin-top: -40px;
-  padding-top: 100px; }
+  padding-top: 100px;
+  text-transform: uppercase; }
+  section#home h1 {
+    font-size: 40px;
+    font-weight: 700 !important;
+    padding: 0; }
+  section#home p {
+    font-size: 45px;
+    font-weight: 700 !important;
+    transform: scale(0.5, 1);
+    margin: -20px 0px -20px 0px; }
+  section#home span {
+    font-weight: 900;
+    color: #709FB0 !important;
+    font-size: 50px; }
+
+section#who {
+  background: #fff;
+  padding-top: 2em;
+  height: auto; }
 
 section#what {
   background: #f9f6fa !important;
+  height: auto;
   padding-top: 8em;
   border-radius: 300px 0px 0px 0px; }
+  section#what b {
+    color: silver !important;
+    font-size: 1.5em !important;
+    margin-bottom: 0px; }
+  section#what p {
+    color: #cdcccc !important;
+    margin-top: 0px; }
+  section#what h2 {
+    color: #8079a0 !important; }
+
+section#why {
+  border-radius: 300px 0px 0px 0px;
+  overflow: hidden;
+  background: #fff;
+  height: auto;
+  padding-top: 6em; }
+  section#why h2 {
+    color: #8079a0 !important; }
 
 h1 {
   color: #709FB0 !important;

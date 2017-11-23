@@ -1,7 +1,8 @@
 module.exports = function(grunt) {
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-pug');
-  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-serve');
 
   grunt.initConfig({
@@ -26,14 +27,14 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'public/css/main.css': 'assets/sass/main.scss',
+          'public/css/main.css': 'assets/sass/main.sass',
         }
       }
     },    
     watch: {
       styles: {
-        files: ['assets/views/*.pug','assets/sass/*.scss'],
-        tasks: ['sass','pug'],
+        files: ['assets/views/*.pug','assets/sass/*.sass'],
+        tasks: ['sass','pug','cssmin'],
         options: {
           nospawn: true,
           livereload: {
@@ -51,6 +52,17 @@ module.exports = function(grunt) {
       options: {
         port: 9000,
         path: '/public/',
+      }
+    },
+    cssmin: {
+      target: {
+        files: [{
+          expand: true,
+          cwd: 'public/css',
+          src: ['*.css', '!*.min.css'],
+          dest: 'public/css',
+          ext: '.min.css'
+        }]
       }
     }
   });
