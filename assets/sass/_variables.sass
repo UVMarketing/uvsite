@@ -2,95 +2,98 @@
 $primary-color: #351F39 !default
 $primary-color-light: false !default
 $primary-color-dark: false !default
-@if not $primary-color-light 
+@if not $primary-color-light
   $primary-color-light: lighten($primary-color, 15%)
-@if not $primary-color-dark 
+@if not $primary-color-dark
   $primary-color-dark: darken($primary-color, 15%)
 $secondary-color: #726A95 !default
 $success-color: #A0C1B8 !default
 $error-color: #F4E8C1 !default
 $link-color: #709FB0 !default
+$light-color: lighten($primary-color,75%) !default
 
-.primary-color 
+.primary-color
   color: $primary-color
-.secondary-color 
+.secondary-color
   color: $secondary-color
-.success-color 
+.success-color
   color: $success-color
-.error-color 
+.error-color
   color: $error-color
-.link-color 
+.link-color
   color: $link-color
-.grey-color 
+.grey-color
   color: lighten(#000,60%)
+.light-color
+  color: $light-color!important
 
-body  
+body
   font: 100% Roboto, sans-serif
-nav  
+nav
   height: 75px!important
   line-height: 75px!important
-  i, [class^="mdi-"], [class*="mdi-"], i.material-icons, .button-collapse i  
+  i, [class^="mdi-"], [class*="mdi-"], i.material-icons, .button-collapse i
     height: 75px!important
     line-height: 75px!important
-  
-  .brand-logo  
-    font-size: 1.6rem
-  
 
-@media only screen and (min-width: 601px)  
-  nav  
+  .brand-logo
+    font-size: 1.6rem
+
+
+@media only screen and (min-width: 601px)
+  nav
     height: 75px!important
     line-height: 75px!important
-    .nav-wrapper i  
+    .nav-wrapper i
       height: 75px!important
       line-height: 75px!important
-    
-    a.button-collapse  
+
+    a.button-collapse
       height: 75px!important
       line-height: 75px!important
-      i  
+      i
         height: 75px!important
         line-height: 75px!important
-      
-    
-  
 
-nav img 
+
+
+
+nav img
   margin-bottom: -25px
 
-nav ul a  
+nav ul a
   color: lighten($primary-color, 10%)!important
   font-weight: 700
   font-size: 14px!important
   margin-right: 50px!important
   padding: 0em 6em 0em 6em!important
 
-nav .brand-logo 
+nav .brand-logo
   background: $primary-color!important
   padding-left: 30px!important
   padding-right: 30px!important
   border-radius:  0px 50px 50px 0px
 
-section 
+section
   height: 90vh
-  background: lighten($primary-color,80%)
+  background: #fff
 
-section#home 
+section#home
   background-image: url("https://res.cloudinary.com/uv-marketing/image/upload/v1510623925/home_k2rxi1.png")
   background-size: auto 100%
   margin-top: -40px
   padding-top: 100px
   text-transform:  uppercase
-  h1 
+  h1
     font-size: 40px
     font-weight: 700!important
     padding: 0
-  p 
+  p
     font-size: 45px
     font-weight: 700!important
     transform:  scale(.5, 1)
     margin: -20px 0px -20px 0px
-  span 
+  span
     font-weight: 900
     color: $link-color!important
     font-size: 50px
@@ -98,10 +101,20 @@ section#home
 section#who
     background: #fff
     padding-top: 2em
-    height: auto
+    height: 60vh
+    #whobg
+      height: 40vh
+      background-image: url(https://res.cloudinary.com/uv-marketing/image/upload/v1513638504/Recurso_1_bgg084.png)
+      background-size: 100% auto
+      background-repeat: no-repeat
+      h1
+        color: $primary-color!important
+        position: relative
+        top: 20%
 
-section#what 
-  background: lighten($primary-color,80%)!important
+
+section#what
+  background: $light-color!important
   height: auto
   padding-top: 8em
   border-radius: 300px 0px 0px 0px
@@ -123,11 +136,28 @@ section#why
   padding-top: 6em
   h2
     color: lighten($secondary-color, 5%)!important
-h1  
+h1
   color: $link-color!important
   font-weight: 400!important
 
-p  
+p
   color: lighten($primary-color, 10%)!important
   font-weight: 300!important
   font-size: 22px
+
+section#where
+  color: lighten(#000,60%)
+  height: 70vh
+  background: $light-color!important
+  .row
+    height: 15vh!important
+  #left
+    background: $primary-color!important
+    margin-left: -20%!important
+    padding-left: 10%!important
+    padding-right: 5%!important
+    width: 50%!important
+    border-radius: 0px 200px 200px 0px
+    p
+      font-size: 1em
+      color: $link-color!important

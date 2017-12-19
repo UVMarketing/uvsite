@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/UVMarketing/uvsite#readme",
   "devDependencies": {
+    "font-awesome": "^4.7.0",
     "grunt": "^1.0.1",
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-jshint": "^1.1.0",

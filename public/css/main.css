@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 .primary-color {
   color: #351F39; }
 
@@ -16,6 +17,9 @@
 
 .grey-color {
   color: #999999; }
+
+.light-color {
+  color: #efe5f1 !important; }
 
 body {
   font: 100% Roboto, sans-serif; }
@@ -61,7 +65,7 @@ nav .brand-logo {
 
 section {
   height: 90vh;
-  background: #f9f6fa; }
+  background: #fff; }
 
 section#home {
   background-image: url("https://res.cloudinary.com/uv-marketing/image/upload/v1510623925/home_k2rxi1.png");
@@ -86,10 +90,19 @@ section#home {
 section#who {
   background: #fff;
   padding-top: 2em;
-  height: auto; }
+  height: 60vh; }
+  section#who #whobg {
+    height: 40vh;
+    background-image: url(https://res.cloudinary.com/uv-marketing/image/upload/v1513638504/Recurso_1_bgg084.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat; }
+    section#who #whobg h1 {
+      color: #351F39 !important;
+      position: relative;
+      top: 20%; }
 
 section#what {
-  background: #f9f6fa !important;
+  background: #efe5f1 !important;
   height: auto;
   padding-top: 8em;
   border-radius: 300px 0px 0px 0px; }
@@ -120,6 +133,23 @@ p {
   color: #54315a !important;
   font-weight: 300 !important;
   font-size: 22px; }
+
+section#where {
+  color: #999999;
+  height: 70vh;
+  background: #efe5f1 !important; }
+  section#where .row {
+    height: 15vh !important; }
+  section#where #left {
+    background: #351F39 !important;
+    margin-left: -20% !important;
+    padding-left: 10% !important;
+    padding-right: 5% !important;
+    width: 50% !important;
+    border-radius: 0px 200px 200px 0px; }
+    section#where #left p {
+      font-size: 1em;
+      color: #709FB0 !important; }
 
 .materialize-red {
   background-color: #e51c23 !important; }
